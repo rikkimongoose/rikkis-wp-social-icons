@@ -23,7 +23,7 @@ if (!Array.prototype.indexOf)
 }
 
 (function() {
-	var newButtons = ["ljuser", "google_plus", "wordpress", "habrahabr", "github" ];
+	var newButtons = ["ljuser", "twitter", "google_plus", "wordpress", "habrahabr", "github" ];
 	tinymce.create('tinymce.plugins.RikkiSocialIconsPlugin', {
 		init : function(ed, url) {
 			if(newButtons.indexOf("ljuser") > -1){

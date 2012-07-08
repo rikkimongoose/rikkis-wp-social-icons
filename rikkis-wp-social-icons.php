@@ -55,7 +55,7 @@ class socialusers
 			$id = $content;
 		$userinfo_url = ($url) ? $url : sprintf($this->options[$type], trim($id));
 		$userpic_url = plugins_url( "js/img/$type.gif" , __FILE__ );
-		return "<span style='white-space: nowrap; display: inline !important;'><a href='$userinfo_url'><img src='$userpic_url' alt='[info]' width='17' height='17' style='vertical-align: bottom; border: 0; padding-right: 1px;vertical-align:middle; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0;' /></a><a href='$userinfo_url'><b>$id</b></a></span>";
+		return "<span style='white-space: nowrap; display: inline !important;'><a href='$userinfo_url'><img src='$userpic_url' alt='[info]' width='17' height='17' style='vertical-align: bottom; border: 0; padding-right: 1px;vertical-align:middle; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0;' /></a><a href='$userinfo_url'><b>$content</b></a></span>";
 	}
 	function mce_external_plugins($plugin_array) {
 		$plugin_array['rikkisocialicons'] = plugins_url ('js/rikkis-wp-social-icons-editor_plugin.js', __FILE__ );
