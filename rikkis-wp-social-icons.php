@@ -28,7 +28,6 @@ class socialusers
 	var $options = array(
 		"ljuser" => "http://%s.livejournal.com/",
 		"ljcomm" => "http://livejournal.com/community/%s",
-		"liruman" => "http://livejournal.com/community/%s",
 		"liruboy" => "http://www.liveinternet.ru/users/%s/",
 		"lirugirl" => "http://www.liveinternet.ru/users/%s/",
 		"ljr" => "http://lj.rossia.org/users/%s/",
