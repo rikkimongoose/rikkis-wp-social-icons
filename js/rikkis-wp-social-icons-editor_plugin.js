@@ -48,15 +48,15 @@ if (!Array.prototype.indexOf)
 					image : url + '/img/ljcomm.gif'
 				});
 			}
-			if(newButtons.indexOf("liruman") > -1){
-			ed.addCommand('mce-liruman', function() {
-					var newcontent = '[userid type="liruman"]' + tinyMCE.activeEditor.selection.getContent({format : 'raw'}) + '[/userid]';
+			if(newButtons.indexOf("liruboy") > -1){
+			ed.addCommand('mce-liruboy', function() {
+					var newcontent = '[userid type="liruboy"]' + tinyMCE.activeEditor.selection.getContent({format : 'raw'}) + '[/userid]';
 					tinyMCE.activeEditor.selection.setContent(newcontent);
 			});
-				ed.addButton('liruman', {
-					title : 'liruman',
-					cmd : 'mce-liruman',
-					image : url + '/img/liruman.gif'
+				ed.addButton('liruboy', {
+					title : 'liruboy',
+					cmd : 'mce-liruboy',
+					image : url + '/img/liruboy.gif'
 				});
 			}
 			if(newButtons.indexOf("lirugirl") > -1){
