@@ -10,7 +10,6 @@ The following social networks are supported:
     [Wordpress](http://wordpress.com)
     [Livejournal](http://livejournal.com/)
     [Li.ru](http://li.ru/)
-    [LJ@Russia](http://lj.rossia.org/)
     [VKontakte.ru](http://vk.com/)
     [Habrahabr](http://habrahabr.ru)
     [GitHub](http://github.com)
