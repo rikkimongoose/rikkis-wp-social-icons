@@ -23,9 +23,20 @@ if (!Array.prototype.indexOf)
 }
 
 (function() {
-	var newButtons = ["ljuser", "twitter", "google_plus", "wordpress", "habrahabr", "github" ];
+	var newButtons = ["blogspot", "ljuser", "twitter", "google_plus", "wordpress", "habrahabr", "github" ];
 	tinymce.create('tinymce.plugins.RikkiSocialIconsPlugin', {
 		init : function(ed, url) {
+			if(newButtons.indexOf("blogspot") > -1){
+				ed.addCommand('mce-blogspot', function() {
+					var newcontent = '[userid type="blogspot"]' + tinyMCE.activeEditor.selection.getContent({format : 'raw'}) + '[/userid]';
+					tinyMCE.activeEditor.selection.setContent(newcontent);
+				});
+				ed.addButton('blogspot', {
+					title : 'blogspot',
+					cmd : 'mce-blogspot',
+					image : url + '/img/blogspot.gif'
+				});
+			}
 			if(newButtons.indexOf("ljuser") > -1){
 				ed.addCommand('mce-ljuser', function() {
 					var newcontent = '[userid type="ljuser"]' + tinyMCE.activeEditor.selection.getContent({format : 'raw'}) + '[/userid]';
