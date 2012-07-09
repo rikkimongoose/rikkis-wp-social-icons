@@ -36,8 +36,9 @@ class socialusers
 		"facebook" => "http://www.facebook.com/%s",
 		"google_plus" => "https://plus.google.com/%s",
 		"wordpress" => "http://%s.wordpress.com/",
-		"habrahabr" => "http://habrahabr.ru/users/%s/",
-		"github" => "http://habrahabr.ru/users/%s/"
+		"habrahabr" => "http://%s.habrahabr.ru/",
+		"github" => "http://github.com/users/%s/",
+		"blogspot" => "http://%s.blogspot.com/"
 	);
 	function socialusers(){
 		if (!function_exists ('add_shortcode') ) return;
