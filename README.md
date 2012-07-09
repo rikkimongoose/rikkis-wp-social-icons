@@ -18,4 +18,4 @@ Current version - *1.0*.
 
 Used by:
 
-    [Rikki Mongoose](http://rikkimongoose.com/)
+    [Rikki Mongoose](http://rikkimongoose.ru/)
