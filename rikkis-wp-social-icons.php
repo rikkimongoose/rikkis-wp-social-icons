@@ -31,7 +31,6 @@ class socialusers
 		"ljcomm" => "http://livejournal.com/community/%s",
 		"liruboy" => "http://www.liveinternet.ru/users/%s/",
 		"lirugirl" => "http://www.liveinternet.ru/users/%s/",
-		"ljr" => "http://lj.rossia.org/users/%s/",
 		"vk" => "http://vk.com/%s",
 		"twitter" => "http://twitter.com/#!/%s/",
 		"facebook" => "http://www.facebook.com/%s",

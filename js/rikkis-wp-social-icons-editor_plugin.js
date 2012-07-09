@@ -81,17 +81,6 @@ if (!Array.prototype.indexOf)
 					image : url + '/img/lirugirl.gif'
 				});
 			}
-			if(newButtons.indexOf("ljr") > -1){
-				ed.addCommand('mce-ljr', function() {
-					var newcontent = '[userid type="ljr"]' + tinyMCE.activeEditor.selection.getContent({format : 'raw'}) + '[/userid]';
-					tinyMCE.activeEditor.selection.setContent(newcontent);
-				});
-				ed.addButton('ljr', {
-					title : 'ljr',
-					cmd : 'mce-ljr',
-					image : url + '/img/ljr.gif'
-				});
-			}
 			if(newButtons.indexOf("vk") > -1){
 				ed.addCommand('mce-vk', function() {
 					var newcontent = '[userid type="vk"]' + tinyMCE.activeEditor.selection.getContent({format : 'raw'}) + '[/userid]';
