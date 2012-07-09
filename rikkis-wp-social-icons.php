@@ -26,6 +26,7 @@ Author URI: http://rikkimongoose.ru
 class socialusers
 {
 	var $options = array(
+		"blogspot" => "http://%s.blogspot.com/",
 		"ljuser" => "http://%s.livejournal.com/",
 		"ljcomm" => "http://livejournal.com/community/%s",
 		"liruboy" => "http://www.liveinternet.ru/users/%s/",
@@ -37,8 +38,7 @@ class socialusers
 		"google_plus" => "https://plus.google.com/%s",
 		"wordpress" => "http://%s.wordpress.com/",
 		"habrahabr" => "http://%s.habrahabr.ru/",
-		"github" => "http://github.com/users/%s/",
-		"blogspot" => "http://%s.blogspot.com/"
+		"github" => "http://github.com/users/%s/"
 	);
 	function socialusers(){
 		if (!function_exists ('add_shortcode') ) return;
