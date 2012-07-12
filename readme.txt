@@ -10,3 +10,21 @@ Requires at least: 2.5
 Tested up to: 3.4.1
 Stable tag: 1.0
 Version: 1.0 
+
+== Description ==
+If you write about somebody at Facebook or Google Plus - mark his name with an icon!
+
+i.e. [userid type="blogspot" id="torvalds-family"]Linus Torvalds[/userid]
+
+The following social networks are supported:
+
+* Facebook
+* Twitter
+* Google Plus
+* Wordpress
+* Livejournal
+* Li.ru
+* VKontakte.ru
+* Habrahabr
+* GitHub
+

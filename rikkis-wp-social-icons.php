@@ -62,7 +62,7 @@ class socialusers
 		return $plugin_array;
 	}
 	function mce_buttons($buttons) {
-  		return array_merge($buttons, array_keys($this->options));
+		return array_merge($buttons, array_keys($this->options));
 	}
 }
 $socialusers = new socialusers();
