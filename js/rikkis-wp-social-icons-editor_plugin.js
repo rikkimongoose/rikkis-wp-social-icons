@@ -2,7 +2,7 @@
 	var newButtons = ["ljuser", "google_plus", "wordpress", "habrahabr", "github"];
 	tinymce.create('tinymce.plugins.RikkiSocialIconsPlugin', {
 	init : function(ed, url) {
-		for ( i in newButtons) {
+		for (var i in newButtons) {
 			var itemTitle = newButtons[i];
 			(function(itemTitle) {
 				var itemCommand = 'mce'+itemTitle;
@@ -24,7 +24,7 @@
 				author : 'Rikki Mongoose',
 				authorurl : 'http://rikkimongoose.ru',
 				infourl : 'http://rikkimongoose.ru/projects/rikkis-wp-social-icons/',
-				version : "1.0"
+				version : "1.1"
 			};
 		}
 	});
