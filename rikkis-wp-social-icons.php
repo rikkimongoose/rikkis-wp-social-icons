@@ -3,9 +3,9 @@
 Plugin Name: Rikki's WP Social Icons
 Plugin URI: http://rikkimongoose.ru/projects/rikkis-wp-social-icons/
 Description: Insert social icons to your Wordpress posts.
-Version: 1.1.0
+Version: 1.1.1
 Author: Rikki Mongoose
-Author URI: http://rikkimongoose.ru
+Author URI: http://github.com/rikkimongoose/
 */
 /*  Copyright 2012  Rikki Mongoose  (email : alexander.a.teut@gmail.com)
 
