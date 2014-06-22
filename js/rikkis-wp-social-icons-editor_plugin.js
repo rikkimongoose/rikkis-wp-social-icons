@@ -22,9 +22,9 @@
 			return {
 				longname : 'Rikki\'s WP Social Icons',
 				author : 'Rikki Mongoose',
-				authorurl : 'http://rikkimongoose.ru',
-				infourl : 'http://rikkimongoose.ru/projects/rikkis-wp-social-icons/',
-				version : "1.1"
+				authorurl : 'http://github.com/rikkimongoose/',
+				infourl : 'http://github.com/rikkimongoose/rikkis-wp-social-icons/',
+				version : "1.1.1"
 			};
 		}
 	});
