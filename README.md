@@ -14,7 +14,7 @@ The following social networks are supported:
 * [Habrahabr](http://habrahabr.ru)
 * [GitHub](http://github.com)
 
-Current version - *1.1*.
+Current version - *1.1,1*.
 
 Used by:
 
